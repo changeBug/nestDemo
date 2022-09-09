@@ -3,11 +3,11 @@ import * as _ from 'lodash';
 const defaultConfig = {
   orm: {
     type: 'mysql',
-    host: '119.3.176.10',
-    port: 3306,
-    username: 'root',
-    password: '123456',
-    database: 'test',
+    host: '',
+    port: 0,
+    username: '',
+    password: '',
+    database: '',
     entities: ['dist/**/*.entity{.ts,.js}'],
     charset: 'utf8mb4',
     synchronize: true,

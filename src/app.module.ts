@@ -9,11 +9,14 @@ import envConfig from './config.env';
   imports: [
     TypeOrmModule.forRoot(envConfig.orm),
     TypeOrmModule.forFeature([
+      // 导入的entity
 
     ]),
     UserModule
   ],
+  // 导入的controller
   controllers: [AppController],
+  // 导入的serveice
   providers: [AppService],
 })
 export class AppModule {}
