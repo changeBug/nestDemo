@@ -7,10 +7,16 @@
 首次运行先安装依赖
 
 ```sh
+npm i
+&&
 yarn
 ```
 
+运行
+
 ```sh
+npm start
+&&
 yarn start
 ```
 
